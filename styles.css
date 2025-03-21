@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+input, textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+#reviewsContainer {
+    margin-top: 20px;
+}
+.review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background: #f9f9f9;
+}
+.delete-btn {
+    background: red;
+    color: white;
+    cursor: pointer;
+}

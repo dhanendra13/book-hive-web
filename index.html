@@ -1,0 +1,16 @@
+<h2>📖 Admin: Upload a Book</h2>
+<form id="bookForm" enctype="multipart/form-data">
+    <input type="text" id="title" name="title" placeholder="Book Title" required>
+    <input type="text" id="author" name="author" placeholder="Author Name" required>
+    <input type="text" id="genre" name="genre" placeholder="Genre" required>
+    <textarea id="description" name="description" placeholder="Book Description" required></textarea>
+    <input type="file" id="coverImage" name="coverImage" accept="image/*">
+    <input type="password" id="adminKey" name="adminKey" placeholder="Admin Secret Key" required>
+    <button type="submit">Upload Book</button>
+</form>
+
+<h2>📚 Available Books</h2>
+<div id="booksContainer"></div>
+
+<h2>📝 Reviews</h2>
+<div id="reviewsContainer"></div>
